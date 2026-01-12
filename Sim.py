@@ -1,3 +1,20 @@
+
+"""
+Streamlined Prepaid SIM Activation System (Streamlit App)
+
+This Streamlit application simulates a streamlined prepaid SIM activation
+workflow aimed at reducing Average Handling Time (AHT).
+
+Key Features:
+- Individual customer verification via form input
+- Bulk customer verification via CSV upload or Google Drive CSV
+- Automated AHT tracking and comparison with traditional methods
+- Interactive AHT dashboard using Plotly visualizations
+
+The app demonstrates how automation, structured data intake,
+and batch processing can significantly reduce operational handling time.
+"""
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
@@ -172,4 +189,5 @@ st.markdown("""
 - **Bulk Upload**: Allows companies to upload multiple entries at once for faster processing.
 - **Traditional Simulation**: Assumes higher AHT based on sample data (e.g., manual checks, more fields).
 - Perform verifications (individual or bulk) to see the average AHT update in real-time.
+
 """)
